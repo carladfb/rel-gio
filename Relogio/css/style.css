@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url(../fonts/arcadeclassic.ttf) format('truetype');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, rgba(255, 229, 59, 0.8470588235), rgba(255, 37, 37, 0.8549019608));
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Gifs*/
+#gifs {
+    display: flex;
+    justify-content: center;
+}
+
+#gifs img {
+    height: 12.5rem;
+    width: 40.625rem;
+    margin: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Relogio */
+.relogio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.horas,
+.minutos,
+.segundos {
+    background-color: rgba(5, 5, 5, 0.9);
+    height: 10.625rem;
+    width: 9.375rem;
+    margin: 0.3rem;
+    letter-spacing: 3px;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.horas h1,
+.minutos h1,
+.segundos h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.horas h2,
+.minutos h2,
+.segundos h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}
